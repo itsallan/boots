@@ -225,17 +225,6 @@ export function AppSidebar({ ...props }: React.ComponentProps<typeof Sidebar>) {
               </Button>
             </DropdownMenuTrigger>
             <DropdownMenuContent side="top" align="end">
-              <DropdownMenuLabel>My Account</DropdownMenuLabel>
-              <DropdownMenuSeparator />
-              <DropdownMenuItem>
-                <HugeiconsIcon icon={UserIcon} size={14} className="mr-2" />
-                Profile
-              </DropdownMenuItem>
-              <DropdownMenuItem>
-                <HugeiconsIcon icon={SettingsIcon} size={14} className="mr-2" />
-                Settings
-              </DropdownMenuItem>
-              <DropdownMenuSeparator />
               <DropdownMenuLabel className="text-xs font-normal text-muted-foreground">
                 Appearance
               </DropdownMenuLabel>
