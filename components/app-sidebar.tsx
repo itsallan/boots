@@ -35,8 +35,6 @@ import {
 import { HugeiconsIcon } from "@hugeicons/react"
 import {
   Home01Icon,
-  ChartLineData02Icon,
-  WalletIcon,
   ArrowUpDownIcon,
   UserIcon,
   SettingsIcon,
@@ -60,13 +58,6 @@ const navMain = [
     items: [],
   },
   {
-    title: "Revenue Sources",
-    icon: ChartLineData02Icon,
-    url: "#",
-    isActive: false,
-    items: [],
-  },
-  {
     title: "Transactions",
     icon: ArrowUpDownIcon,
     url: "#",
@@ -75,17 +66,6 @@ const navMain = [
       { title: "Collections", url: "#" },
       { title: "Withdrawals",  url: "#" },
       { title: "Refunds",   url: "#" },
-    ],
-  },
-  {
-    title: "Wallets",
-    icon: WalletIcon,
-    url: "#",
-    isActive: false,
-    items: [
-      { title: "Accounts",    url: "#" },
-      { title: "Savings",     url: "#" },
-      { title: "Investments", url: "#" },
     ],
   },
 ]
